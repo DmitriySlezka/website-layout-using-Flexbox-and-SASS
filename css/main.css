@@ -510,9 +510,6 @@ button:focus, input:focus {
 }
 
 .main-section__feedback:hover {
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
   background-color: rgba(49, 87, 122, 0.5);
   -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);

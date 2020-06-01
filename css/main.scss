@@ -400,7 +400,6 @@ button:focus, input:focus {
       transition: all 0.3s;
 
       &:hover {
-         transform: scale(1.1);
          background-color: lighten($color: rgba(42, 74, 104, 0.5), $amount: 5);
          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
       }
@@ -414,10 +413,6 @@ button:focus, input:focus {
       position: relative;
       height: 90px;
       min-width: 90px;
-
-      img {
-
-      }
 
       span {
          display: block;
