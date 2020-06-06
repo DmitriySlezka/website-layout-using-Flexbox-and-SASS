@@ -386,8 +386,8 @@ button:focus, input:focus {
 
 .header-nav__link:hover {
   border: 1px #366E7A solid;
-  -webkit-border-radius: 20px;
-          border-radius: 20px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
 }
 
 @media (max-width: 767px) {

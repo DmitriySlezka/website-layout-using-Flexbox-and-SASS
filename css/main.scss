@@ -299,7 +299,7 @@ button:focus, input:focus {
 
       &:hover {
          border: 1px $sec-text-color solid;
-         border-radius: 20px;
+         border-radius: 50%;
 
          @media (max-width: $screen-sm-max) {
          border: 1px $main-text-color solid;
