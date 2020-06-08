@@ -398,7 +398,7 @@ button:focus, input:focus {
 
 .header-burger {
   display: none;
-  z-index: 10;
+  z-index: 100;
 }
 
 @media (max-width: 767px) {
@@ -679,6 +679,14 @@ button:focus, input:focus {
   transition: all 0.3s;
 }
 
+.main-section__booking .booking-item:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0px 60px 80px rgba(29, 44, 63, 0.4);
+          box-shadow: 0px 60px 80px rgba(29, 44, 63, 0.4);
+}
+
 @media (max-width: 767px) {
   .main-section__booking .booking-item {
     width: 100%;
@@ -686,12 +694,12 @@ button:focus, input:focus {
   }
 }
 
-.main-section__booking .booking-item:hover {
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-box-shadow: 0px 60px 80px rgba(29, 44, 63, 0.4);
-          box-shadow: 0px 60px 80px rgba(29, 44, 63, 0.4);
+@media (max-width: 991px) {
+  .main-section__booking .booking-item:hover {
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+  }
 }
 
 .main-section__booking .booking-item__status {
